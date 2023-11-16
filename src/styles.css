@@ -1,0 +1,106 @@
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url(https://images.unsplash.com/photo-1658163724548-29ef00812a54?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHx0b3BpYy1mZWVkfDIxM3xibzhqUUtUYUUwWXx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=500&q=60);
+    background-attachment: fixed;
+    background-size: cover;
+        /* width: 100vw; 
+        height: 100vh; */
+    }
+
+
+.container {
+   
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(73, 8, 99);
+}
+
+h2 {
+    margin-bottom: 10px;
+    color: rgb(73, 8, 99);
+    text-align: center;
+}
+
+form {
+    border: 2px solid royalblue;
+    background-color: beige;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+form input {
+    /* border: 5px solid blue; */
+    margin-bottom: 10px;
+    padding: 5px;
+    font-size: 20px;
+    margin-left: 7rem;
+}
+
+.name{
+    margin-left: 8.5rem;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    border-radius: 1rem;
+    padding: 10px;
+    border: 1px solid #ddd;
+    background-color: lightgreen;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+}
+
+li button {
+    background-color: #ff5050;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    /* margin-right: 2rem; */
+    
+}
+
+li button:hover {
+    background-color: #ff0000;
+}
+.submit-btn{
+    width: 20rem;
+    margin-left: 38rem;
+    height: 3rem;
+    border-radius: 1rem;
+    background-color: #ff5050;
+    color: white;
+    font-size: large;
+    
+}
+.submit-btn:hover{
+background-color: #ff0000;
+}
+.p-text{
+    width: 50rem;
+    /* border:5px solid black; */
+    margin-left: 28rem;
+}
+.send-msg{
+    text-align: center;
+}
+.message-time{
+    margin-top: -0.3rem;
+}
+
